@@ -1,0 +1,72 @@
+{
+  "builder_name": "chn_senti_corp",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 3871919,
+  "description": "",
+  "download_checksums": {
+    "https://drive.google.com/u/0/uc?id=1uV-aDQoMI51A27OxVgJnzxqZFQqkDydZ&export=download": {
+      "num_bytes": 3032906,
+      "checksum": "5394d3b2867ece9452a275fc84924ae030d827bb57b90c6aed6009ffdd1b8cee"
+    },
+    "https://drive.google.com/u/0/uc?id=1kI_LUYm9m0pVGDb4LHqtjwauUrIGo_rC&export=download": {
+      "num_bytes": 375862,
+      "checksum": "a8770badf76a638fb21f92d5be9280eb8c50a7644dbe2dd881aff040c6fe6513"
+    },
+    "https://drive.google.com/u/0/uc?id=1YJkSqGFeo-8ifmgVbxGMTte7Y-yxPHg7&export=download": {
+      "num_bytes": 371381,
+      "checksum": "5ffc04692e4f7bf6b18eb9f94cef3090bd5fb55bb3e138ac7080f0739529ef1f"
+    }
+  },
+  "download_size": 3780149,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 2,
+      "names": [
+        "negative",
+        "positive"
+      ],
+      "id": null,
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 7652068,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3106365,
+      "num_examples": 9600,
+      "dataset_name": "chn_senti_corp"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 385021,
+      "num_examples": 1200,
+      "dataset_name": "chn_senti_corp"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 380533,
+      "num_examples": 1200,
+      "dataset_name": "chn_senti_corp"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

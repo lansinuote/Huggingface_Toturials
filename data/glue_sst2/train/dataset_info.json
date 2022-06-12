@@ -1,0 +1,69 @@
+{
+  "builder_name": "glue",
+  "citation": "@inproceedings{socher2013recursive,\n  title={Recursive deep models for semantic compositionality over a sentiment treebank},\n  author={Socher, Richard and Perelygin, Alex and Wu, Jean and Chuang, Jason and Manning, Christopher D and Ng, Andrew and Potts, Christopher},\n  booktitle={Proceedings of the 2013 conference on empirical methods in natural language processing},\n  pages={1631--1642},\n  year={2013}\n}\n@inproceedings{wang2019glue,\n  title={{GLUE}: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding},\n  author={Wang, Alex and Singh, Amanpreet and Michael, Julian and Hill, Felix and Levy, Omer and Bowman, Samuel R.},\n  note={In the Proceedings of ICLR.},\n  year={2019}\n}\n",
+  "config_name": "sst2",
+  "dataset_size": 5013287,
+  "description": "GLUE, the General Language Understanding Evaluation benchmark\n(https://gluebenchmark.com/) is a collection of resources for training,\nevaluating, and analyzing natural language understanding systems.\n\n",
+  "download_checksums": {
+    "https://dl.fbaipublicfiles.com/glue/data/SST-2.zip": {
+      "num_bytes": 7439277,
+      "checksum": "d67e16fb55739c1b32cdce9877596db1c127dc322d93c082281f64057c16deaa"
+    }
+  },
+  "download_size": 7439277,
+  "features": {
+    "sentence": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "num_classes": 2,
+      "names": [
+        "negative",
+        "positive"
+      ],
+      "id": null,
+      "_type": "ClassLabel"
+    },
+    "idx": {
+      "dtype": "int32",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://datasets.stanford.edu/sentiment/index.html",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 12452564,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 4690050,
+      "num_examples": 67349,
+      "dataset_name": "glue"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 106365,
+      "num_examples": 872,
+      "dataset_name": "glue"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 216872,
+      "num_examples": 1821,
+      "dataset_name": "glue"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "1.0.0",
+    "description": "",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
