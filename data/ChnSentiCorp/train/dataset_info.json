@@ -2,23 +2,23 @@
   "builder_name": "chn_senti_corp",
   "citation": "",
   "config_name": "default",
-  "dataset_size": 3871919,
+  "dataset_size": 3873419,
   "description": "",
   "download_checksums": {
-    "https://drive.google.com/u/0/uc?id=1uV-aDQoMI51A27OxVgJnzxqZFQqkDydZ&export=download": {
-      "num_bytes": 3032906,
-      "checksum": "5394d3b2867ece9452a275fc84924ae030d827bb57b90c6aed6009ffdd1b8cee"
+    "https://huggingface.co/datasets/lansinuote/ChnSentiCorp/resolve/b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/train-00000-of-00001-02f200ca5f2a7868.parquet": {
+      "num_bytes": 2156438,
+      "checksum": "127c29d868a0978ff024d5ff36c4283f180a55cb9bf62cbd9616397237488d66"
     },
-    "https://drive.google.com/u/0/uc?id=1kI_LUYm9m0pVGDb4LHqtjwauUrIGo_rC&export=download": {
-      "num_bytes": 375862,
-      "checksum": "a8770badf76a638fb21f92d5be9280eb8c50a7644dbe2dd881aff040c6fe6513"
+    "https://huggingface.co/datasets/lansinuote/ChnSentiCorp/resolve/b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/test-00000-of-00001-5372924f059fe767.parquet": {
+      "num_bytes": 275253,
+      "checksum": "39757c28f36e9d64d08dd29b3d5e0c53cc4930cde4d0af0f4cf24a66127283f5"
     },
-    "https://drive.google.com/u/0/uc?id=1YJkSqGFeo-8ifmgVbxGMTte7Y-yxPHg7&export=download": {
-      "num_bytes": 371381,
-      "checksum": "5ffc04692e4f7bf6b18eb9f94cef3090bd5fb55bb3e138ac7080f0739529ef1f"
+    "https://huggingface.co/datasets/lansinuote/ChnSentiCorp/resolve/b0c4c119c3fb33b8e735969202ef9ad13d717e5a/data/validation-00000-of-00001-405befbaa3bcf1a2.parquet": {
+      "num_bytes": 275802,
+      "checksum": "7730cae007e8f795ed72de0201578ce05ea3a2dd0fee6369e711d35c2da26163"
     }
   },
-  "download_size": 3780149,
+  "download_size": 2707493,
   "features": {
     "text": {
       "dtype": "string",
@@ -39,25 +39,25 @@
   "license": "",
   "post_processed": null,
   "post_processing_size": null,
-  "size_in_bytes": 7652068,
+  "size_in_bytes": 6580912,
   "splits": {
     "train": {
       "name": "train",
-      "num_bytes": 3106365,
+      "num_bytes": 3107565,
       "num_examples": 9600,
-      "dataset_name": "chn_senti_corp"
-    },
-    "validation": {
-      "name": "validation",
-      "num_bytes": 385021,
-      "num_examples": 1200,
-      "dataset_name": "chn_senti_corp"
+      "dataset_name": "parquet"
     },
     "test": {
       "name": "test",
-      "num_bytes": 380533,
+      "num_bytes": 380683,
       "num_examples": 1200,
-      "dataset_name": "chn_senti_corp"
+      "dataset_name": "parquet"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 385171,
+      "num_examples": 1200,
+      "dataset_name": "parquet"
     }
   },
   "supervised_keys": null,
